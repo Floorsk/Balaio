@@ -1,12 +1,12 @@
 /* Estilização da tela 'FEIRA' - 'market' */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Lexend+Mega:wght@300;400;500;600&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Lexend+Mega:wght@300;400;500;600&family=Poppins:wght@100&display=swap%27');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lexend Mega', sans-serif;    
+    font-family: 'Lexend Mega', sans-serif;
 }
 
 body {
@@ -37,7 +37,6 @@ header {
 
 .logo-img {
     padding: 1rem;
-
 }
 
 .logo-img img {
@@ -75,7 +74,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    
 }
 
 .menu ul li a{
@@ -94,4 +92,34 @@ header {
     background-color: #9BA141;
     transform: translateY(-5px);
     box-shadow: 0px 4px 3px black;
+}
+
+.map-container {
+    word-wrap: break-word;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.map-container div {
+    flex: 1 1 300px;
+}
+
+.map-container image{
+    border-radius: 10px;
+}
+
+.map-container figcaption {
+    position: absolute;
+    top: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 8px 16px 8px 16px;
+    color: #FFF;
+    background-color: #9BA141;
 }
