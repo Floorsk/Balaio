@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Lexend+Mega:wght@300;400;500;600&family=Poppins:wght@100&display=swap');
 
+/* login - page */
 * {
     margin: 0;
     padding: 0;
@@ -129,7 +130,7 @@ body {
     color: #000000be;
 }
 
-.login-button button {
+.login-button input {
     width: 100%;
     margin-top: 2.5rem;
     border: none;
@@ -141,13 +142,13 @@ body {
     position: relative; 
 }
 
-.login-button button:hover {
+.login-button input:hover {
     transform: translateY(-5px);
     background-color: #a3aa45;
     box-shadow: 0px 4px 3px black;
 }
 
-.login-button button a {
+.login-button input {
     text-decoration: none;
     font-size: 0.93rem;
     font-weight: 500;
@@ -180,5 +181,4 @@ body {
         flex-wrap: nowrap;  
     }
 }
-
 
