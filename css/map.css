@@ -104,6 +104,8 @@ header {
     justify-content: center;
     display: flex;
     position: relative;
+    padding: 1px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
 }
 
 .map-container div {
